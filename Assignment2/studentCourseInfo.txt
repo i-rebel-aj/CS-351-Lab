@@ -1,0 +1,6 @@
+Student Name 		 Roll Number		 Year 		 Courses Taken
+Akshay		CS30000		3		Cloud Computing (CS351), Data Structures (CS352), Algorithms (CS353), 
+Naman		EC40001		4		Analog Signal Processing (EC451), Image Processing (EC452), Instrumentation and Measurement (EC453), 
+Deepak		CS10002		1		Optimation Techniques (CS151), Programming in C (CS101), IT-Workshop 1 (CS112), 
+Aditya		EC30000		3		VLSI Design (EC301), Control Systems (EC371), Electromagnetism (EC351), 
+JJ		EC20007		2		Analog Circuits (EC200), Digital Design (EC201), Digital Signal Processing (EC251), 
