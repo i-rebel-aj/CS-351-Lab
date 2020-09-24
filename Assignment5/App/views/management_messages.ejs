@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Customer Feedback Management</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+    <body>
+        <h1>All Messages sent by all users</h1>
+        <table>
+            <tr>
+              <th>Email</th>
+              <th>Message</th>
+            </tr>
+        <%results.forEach((result)=>{%>
+            <tr>
+                <td><%=result.email%></td>
+                <td><%=result.message%></td>
+            </tr>
+        <%})%>
+    </body>
+</html>

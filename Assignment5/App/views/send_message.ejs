@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Customer Feedback Management</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div>
+            <h1>Send Message Here!</h1>
+            <form action="/user/send_message" method="POST">
+                <input type="email" name="customerEmail" placeholder="Email">
+                <input type="text" name="customerMessage" placeholder="Message">
+                <button>Submit!</button>
+            </form>
+            <br>
+            <h1>View all your messages here!</h1>
+            <form action="/user/view_message" method="POST">
+                <input type="email" name="customerEmail" placeholder="Email">
+                <button>Submit!</button>
+            </form>
+        </div>
+    </body>
+</html>
